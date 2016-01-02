@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.2
 
 ENV GOPATH=/root/go
 RUN apk add --update go git && \
